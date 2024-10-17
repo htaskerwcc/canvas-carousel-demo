@@ -2,7 +2,7 @@
     "slides": [
        {
             "imageFileName": "master-courses.png",
-            "altText": "Get Master Courses",
+            "altText": "Get UA Master Courses from Canvas Commons",
             "linkURL": "https://wccnet.instructure.com/accounts/1/external_tools/134?launch_type=global_navigation"
         },
         {
@@ -11,7 +11,7 @@
             "linkURL": "https://wccnet.instructure.com/enroll/K4DNGA"
         },
         {
-            "imageFileName": "course-clean-up-copy.png",
+            "imageFileName": "course-clean-up.png",
             "altText": "Get a Course Clean Up Checklist",
             "linkURL": "https://wikipedia.org"
         }
