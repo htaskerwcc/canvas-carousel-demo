@@ -1,14 +1,14 @@
 {
     "slides": [
        {
-            "imageFileName": "sample_image_1.png",
-            "altText": "Sample Image 1",
-            "linkURL": "https://github.com/tl-its-umich-edu/"
+            "imageFileName": "master-courses.png",
+            "altText": "Get Master Courses",
+            "linkURL": "https://wccnet.instructure.com/accounts/1/external_tools/134?launch_type=global_navigation"
         },
         {
-            "imageFileName": "sample_image_2.png",
-            "altText": "Sample Image 2",
-            "linkURL": "https://github.com/tl-its-umich-edu/"
+            "imageFileName": "instructor-training.png",
+            "altText": "Go to the UA Canvas Instructor Training Course",
+            "linkURL": "https://wccnet.instructure.com/enroll/K4DNGA"
         },
         {
             "imageFileName": "course-clean-up-copy.png",
