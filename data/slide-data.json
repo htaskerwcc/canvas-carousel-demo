@@ -9,6 +9,11 @@
             "imageFileName": "sample_image_2.png",
             "altText": "Sample Image 2",
             "linkURL": "https://github.com/tl-its-umich-edu/"
+        },
+        {
+            "imageFileName": "course-clean-up.jpg",
+            "altText": "Get a Course Clean Up Checklist",
+            "linkURL": "https://wikipedia.org"
         }
     ],
     "settings": {
