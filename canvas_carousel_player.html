@@ -13,14 +13,14 @@
 
 /* Custom colors */
 :root {
-  --mi-blue: #00274C;
-  --mi-blue-light: #0070D9;
+  --ua-blue: #2f3c5b;
+  --ua-blue-light: #306DC8;
 }
 
 /* Layout */
 #canvas-carousel {
-  width: 950px;
-  height: 200px;
+  width: 1050px;
+  height: 210px;
   cursor: pointer;
 }
 
@@ -44,14 +44,14 @@ ul, menu, dir {
 /* Controls */
 
 .btn-outline-primary {
-  --bs-btn-color: var(--mi-blue);
-  --bs-btn-border-color: var(--mi-blue);
+  --bs-btn-color: var(--ua-blue);
+  --bs-btn-border-color: var(--ua-blue);
   --bs-btn-hover-color: white;
-  --bs-btn-hover-bg: var(--mi-blue-light) !important;
-  --bs-btn-hover-border-color: var(--mi-blue);
+  --bs-btn-hover-bg: var(--ua-blue-light) !important;
+  --bs-btn-hover-border-color: var(--ua-blue);
   --bs-btn-active-color: white;
-  --bs-btn-active-bg: var(--mi-blue);
-  --bs-btn-active-border-color: var(--mi-blue);
+  --bs-btn-active-bg: var(--ua-blue);
+  --bs-btn-active-border-color: var(--ua-blue);
 }
 
 /* Previous/Next */
@@ -63,12 +63,12 @@ ul, menu, dir {
 }
 
 .carousel-control-prev .bi-chevron-left, .carousel-control-next .bi-chevron-right {
-  color: var(--mi-blue);
+  color: var(--ua-blue);
   font-size: 32px;
 }
 
 .carousel-control-prev .bi-chevron-left:hover, .carousel-control-next .bi-chevron-right:hover {
-  color: var(--mi-blue-light);
+  color: var(--ua-blue-light);
 }
 
 /* visible focus rings */
@@ -79,7 +79,7 @@ ul, menu, dir {
 /* Play/Pause */
 #play-pause {
   position: absolute;
-  bottom: 35px;
+  bottom: 50px;
   right: 9px;
   z-index: 999;
 }
@@ -95,8 +95,8 @@ ul, menu, dir {
   border-radius: 100% !important;
   opacity: 1 !important;
   text-indent: 0 !important;
-  color: var(--mi-blue);
-  border: 1px solid var(--mi-blue) !important;
+  color: var(--ua-blue);
+  border: 1px solid var(--ua-blue) !important;
   margin-left: 5px !important;
   margin-right: 5px !important;
   margin-bottom: 5px;
@@ -104,12 +104,12 @@ ul, menu, dir {
 }
 
 .carousel-indicators :is(button.active, button.active:hover, button.active:focus-visible) {
-  background-color: var(--mi-blue) !important;
+  background-color: var(--ua-blue) !important;
   color: white !important;
 }
 
 .carousel-indicators :is(button:hover, button:focus-visible) {
-  background-color: var(--mi-blue-light) !important;
+  background-color: var(--ua-blue-light) !important;
   color: white !important;
 }
 
@@ -223,7 +223,7 @@ ul, menu, dir {
     const playPauseIconEl = document.getElementById('play-pause-icon');
 
     const canvasCarousel = new bootstrap.Carousel(canvasCarouselEl, {
-      interval: 11000, pause: false
+      interval: 6500, pause: false
     });
     canvasCarousel.cycle();
 
