@@ -2,18 +2,23 @@
     "slides": [
        {
             "imageFileName": "master-courses.png",
-            "altText": "Get UA Master Courses from Canvas Commons",
+            "altText": "Learn how to get UA Master Courses from Canvas Commons",
             "linkURL": "https://wccnet.instructure.com/accounts/1/external_tools/134?launch_type=global_navigation"
         },
         {
             "imageFileName": "instructor-training.png",
-            "altText": "Go to the UA Canvas Instructor Training Course",
+            "altText": "Join the UA Canvas Instructor Training Course",
             "linkURL": "https://wccnet.instructure.com/enroll/K4DNGA"
         },
         {
             "imageFileName": "course-clean-up.png",
             "altText": "Get a Course Clean Up Checklist",
             "linkURL": "https://wikipedia.org"
+        }
+        {
+            "imageFileName": "canvas-qa-sessions.png",
+            "altText": "Get Meeting Link for Canvas QA Sessions: M 9a, W 6p, F 12noon All Times EST",
+            "linkURL": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Zjc5MDMzZjQtZjczYy00M2MxLWEyMGMtMzVhMjcxZjk4MThm%40thread.v2/0?context=%7b%22Tid%22%3a%22ec4c99b6-4111-4ea0-bd5a-735a0ae10394%22%2c%22Oid%22%3a%22a46b7e74-ecc2-474f-9902-2d36cfffbc12%22%7d"
         }
     ],
     "settings": {
