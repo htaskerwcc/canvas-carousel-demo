@@ -4,14 +4,14 @@
 ## Overview
 
 This repository includes a collection of HTML, image, and JSON files that together form an announcement carousel
-that can be installed or embedded on the Canvas home page (i.e. Dashboard).
+that can be installed or embedded on the Canvas home page (i.e. Dashboard), or on any Canvas page.
 The carousel makes use of Bootstrap (version 5), Bootstrap Icons, and native HTML and JavaScript functionality.
 
-This carousel has been checked for accessibility and can be navigated with the keyboard and will announced the alt text if provided.
+This carousel has been checked for accessibility and can be navigated with the keyboard and will announce the alt text if provided. The carousel content in this repository is in .png format, therefore image text is rasterized and cannot be read by screenreaders. If your carousel content contains text-heavy images, [**good** alt text](https://dequeuniversity.com/checklists/web/images) is strongly suggested.
 
 ## Repository setup
 
-This demo site can be forked on Github and either be left public or made private. Or you can just copy the files and host it where you like on S3 or any web host. At Michigan we just run the private repository as a Github Page the similar to the demo and make all our changes right in Github via the GUI. However we have an AWS CloudFront distribution setup as Github Pages has bandwidth limits. We typically have about 10 million requests and 500GB of traffic in a typical month and the costs total $10/month. 
+This demo site can be forked on Github and either be left public or made private. Or you can just copy the files and host it where you like on S3 or any web host. At Michigan we just run the private repository as a Github Page the similar to the demo and make all our changes right in Github via the GUI. However we have an AWS CloudFront distribution setup as Github Pages has soft bandwidth limits. These limits are explained in [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) and applies to both page size and visitor count. A simplistic example: if your page size is 1MB, it can handle 10,000 visitors a month.
 
 If you change the name of this repository you'll have to change the value of pathStem in the html file to something else. This may be useful to be configurable in the future.
 
@@ -37,6 +37,8 @@ $(document).ready(function() {
 ```
 
 Once added, the carousel will launch and begin cycling slides when the Canvas home page is loaded.
+
+If adding the carousel to a specific page in a Canvas course, add only the div to the page's html.
 
 ## Adding slide content
 
